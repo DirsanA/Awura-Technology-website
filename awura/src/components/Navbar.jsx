@@ -72,10 +72,10 @@ const Navbar = ({ homeRef, servicesRef, productsRef, testimonialsRef }) => {
 
           <div className="hidden lg:flex space-x-6">
             <Link
-              to="/contact"
+              to="/vacancy"
               className="bg-gradient-to-r from-orange-500 to-orange-800 px-3 py-2 rounded-md"
             >
-              Contact Us
+              Join Us
             </Link>
           </div>
 
@@ -113,11 +113,11 @@ const Navbar = ({ homeRef, servicesRef, productsRef, testimonialsRef }) => {
             </ul>
             <div className="flex space-x-6">
               <Link
-                to="/contact"
+                to="/vacancy"
                 className="bg-gradient-to-r from-orange-500 to-orange-800 px-3 py-2 rounded-md"
                 onClick={() => setMobileDrawerOpen(false)}
               >
-                Contact Us
+                Join us
               </Link>
             </div>
           </div>
