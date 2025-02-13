@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import video1 from "../assets/video1.mp4";
-import video2 from "../assets/tech.mp4";
+import video2 from "../assets/videoss.mp4";
 import awuraHero from "../assets/awuraHero.png";
 
 const HeroSection = () => {
